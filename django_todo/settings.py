@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG")
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mt87-django-app.herokuapp.com']
 
 
 # Application definition
