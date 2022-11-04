@@ -87,7 +87,9 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 #     }
 # }
 DATABASES = {
-    'default': dj_database_url.parse('postgres://rpupmaggwiyklf:f4a438bda2202a8058a91943f9c716032322cbad841527f919248a85ac397711@ec2-34-252-216-149.eu-west-1.compute.amazonaws.com:5432/d419i3vkk5lr4g')
+    'default': dj_database_url.parse('postgres://rpupmaggwiyklf:\
+f4a438bda2202a8058a91943f9c716032322cbad841527f919248a85ac397711@\
+ec2-34-252-216-149.eu-west-1.compute.amazonaws.com:5432/d419i3vkk5lr4g')
 }
 
 
@@ -96,16 +98,20 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation.\
+UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_validation.\
+MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.\
+CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.\
+NumericPasswordValidator',
     },
 ]
 
